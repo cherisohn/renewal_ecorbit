@@ -1,0 +1,355 @@
+@media screen and (max-width: 1000px) {
+  /* 상단영역 */
+  #header .navbar .logo {
+    width: 36%;
+  }
+  #header .navbar .logo img {
+    margin: 40px 0 0 30px;
+    width: 75%;
+  }
+  #header .navbar .nav {
+    height: 120px;
+  }
+  #header .navbar .nav .mainmn {
+    width: 98%;
+  }
+  #header .navbar .nav .mainmn > li {
+    width: 16%;
+  }
+  #header .navbar .nav .mainmn > li > a {
+    font-size: 18px;
+  }
+
+  #header .navbar .nav .mainmn > li > a.act {
+    display: block;
+    font-weight: 600;
+    background-color: rgb(248, 222, 187);
+  }
+  #header .submn {
+    width: 100%;
+    height: 285px;
+    border: 2px solid rgb(139, 92, 31);
+    box-sizing: border-box;
+    background-color: white;
+    z-index: 9999;
+    position: relative;
+  }
+  #header .submn #header .submn > li {
+    width: 100%;
+  }
+  #header .submn > li > a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 40px;
+    font-size: 15px;
+    color: #000;
+  }
+  #header .submn > li > a.act2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 40px;
+    background-color: antiquewhite;
+  }
+  #header .navbar .lang {
+    width: 36%;
+  }
+  #header .navbar .lang li {
+    margin: 50px -12px 0 25px;
+  }
+  #header .navbar .lang a {
+    font-size: 15px;
+  }
+  #header .navbar .lang .hamburger {
+    width: 30px;
+    height: 30px;
+    top: 45px;
+    left: 140px;
+  }
+  #header .navbar .lang .hamburger > span {
+    margin-top: 5px;
+    width: 25px;
+    height: 3px;
+  }
+
+  /* <!-- 컨텐츠1: Our Business --> */
+
+  #business {
+    height: 2100px;
+  }
+  #business .business_h > div {
+    width: 70%;
+  }
+  #business .business_h p {
+    font-size: 18px;
+  }
+  #business .business_b {
+    width: 100%;
+    height: 1980px;
+  }
+  #business .business_b ul {
+    width: 100%;
+    height: 1980px;
+  }
+  #business .business_b li {
+    float: left;
+    border: 1px solid rgb(226, 207, 192);
+    box-sizing: border-box;
+    width: 100%;
+    height: 400px;
+    position: relative;
+  }
+  #business .business_b li:nth-child(1) {
+    border-radius: 150px;
+    margin: 0 10px 10px 0;
+  }
+
+  #business .business_b li:nth-child(2) {
+    border-radius: 150px;
+    margin: 0 10px 10px 0;
+  }
+
+  #business .business_b li:nth-child(3) {
+    border-radius: 150px;
+    margin: 0 10px 10px 0;
+  }
+
+  #business .business_b li:nth-child(4) {
+    border-radius: 150px;
+    margin: 0 10px 10px 0;
+  }
+
+  #business .business_b li:nth-child(1) > .ttl_eng {
+    top: 20px;
+    left: 150px;
+  }
+  #business .business_b li:nth-child(2) > .ttl_eng {
+    top: 20px;
+    left: 150px;
+  }
+  #business .business_b li:nth-child(3) > .ttl_eng {
+    top: 20px;
+    left: 150px;
+  }
+  #business .business_b li:nth-child(4) > .ttl_eng {
+    top: 20px;
+    left: 150px;
+  }
+  #business .business_b .ttl_kor {
+    font-size: 20px;
+  }
+  #business .business_b li:nth-child(1) > .ttl_kor {
+    top: 42px;
+    left: 180px;
+  }
+  #business .business_b li:nth-child(2) > .ttl_kor {
+    top: 42px;
+    left: 175px;
+  }
+  #business .business_b li:nth-child(3) > .ttl_kor {
+    top: 42px;
+    left: 200px;
+  }
+  #business .business_b li:nth-child(4) > .ttl_kor {
+    top: 42px;
+    left: 205px;
+  }
+
+  #business .business_b li:nth-child(1) > .photo {
+    top: 110px;
+    left: 140px;
+  }
+  #business .business_b li:nth-child(2) > .photo {
+    top: 110px;
+    left: 110px;
+  }
+  #business .business_b li:nth-child(3) > .photo {
+    top: 110px;
+    left: 100px;
+  }
+  #business .business_b li:nth-child(4) > .photo {
+    top: 110px;
+    left: 100px;
+  }
+  #business .business_b .dcrpt {
+    width: 520px;
+
+    font-size: 15px;
+  }
+  #business .business_b li:nth-child(1) > .dcrpt {
+    top: 180px;
+    left: 440px;
+  }
+  #business .business_b li:nth-child(2) > .dcrpt {
+    top: 180px;
+    left: 440px;
+  }
+  #business .business_b li:nth-child(3) > .dcrpt {
+    top: 180px;
+    left: 440px;
+  }
+  #business .business_b li:nth-child(4) > .dcrpt {
+    width: 570px;
+
+    top: 180px;
+    left: 400px;
+  }
+
+  /* <!-- 컨텐츠2: ESG Management --> */
+  #esg_mgmt {
+    width: 100%;
+    height: 1580px;
+  }
+  #esg_mgmt .esg_mgmt_h {
+    width: 100%;
+    height: 240px;
+    background-color: antiquewhite;
+  }
+  #esg_mgmt .esg_mgmt_b {
+    margin: 0 auto;
+    margin-top: 130px;
+    width: 100%;
+    height: 710px;
+    position: relative;
+  }
+  #esg_mgmt .esg_mgmt_b ul {
+    margin-left: 50px;
+  }
+  #esg_mgmt .esg_mgmt_b li {
+    margin-bottom: 20px;
+    width: 425px;
+    height: 510px;
+    padding: 340px 0 0 0px;
+    box-sizing: border-box;
+  }
+  #esg_mgmt .esg_mgmt_b li:last-child {
+    margin-right: 0;
+  }
+  #esg_mgmt .esg_mgmt_b li:nth-child(1) {
+    border-radius: 250px 0px 0px 0px;
+    background: url(../images/environmental-protection-326923.jpg) no-repeat 50%
+      0;
+    background-size: auto 510px;
+  }
+  #esg_mgmt .esg_mgmt_b li:nth-child(2) {
+    background: url(../images/compliance.png) no-repeat 50% 0;
+    background-size: 425px 510px;
+  }
+  #esg_mgmt .esg_mgmt_b li:nth-child(3) {
+    background: url(../images/safe.png) no-repeat 50% 0;
+    background-size: 425px 510px;
+  }
+  #esg_mgmt .esg_mgmt_b li:nth-child(4) {
+    border-radius: 0px 0px 250px 0px;
+    background: url(../images/job-5382501_1920.jpg) no-repeat 50% 0;
+    background-size: auto 510px;
+  }
+  #esg_mgmt .esg_mgmt_b span {
+    width: 425px;
+  }
+  #esg_mgmt .esg_mgmt_b li:nth-child(1) span {
+    position: absolute;
+    top: 200px;
+    left: 50px;
+  }
+  #esg_mgmt .esg_mgmt_b li:nth-child(2) span {
+    position: absolute;
+    top: 200px;
+    left: 495px;
+  }
+  #esg_mgmt .esg_mgmt_b li:nth-child(3) span {
+    position: absolute;
+    top: 700px;
+    left: 50px;
+  }
+  #esg_mgmt .esg_mgmt_b li:nth-child(4) span {
+    position: absolute;
+    top: 700px;
+    left: 495px;
+  }
+
+  #esg_mgmt .esg_mgmt_b a {
+    font-size: 30px;
+    color: #000;
+    text-align: center;
+  }
+
+  /* <!-- 컨텐츠3: Media Center --> */
+  #media_cntr {
+    width: 100%;
+    height: 920px;
+  }
+  #media_cntr .media_cntr_b {
+    margin: 0 auto;
+    margin-top: 140px;
+    width: 100%;
+    height: 400px;
+  }
+  #media_cntr .media_cntr_b li {
+    margin-right: 10px;
+    width: 32%;
+  }
+  #media_cntr .media_cntr_b img {
+    width: 100%;
+  }
+  #media_cntr .media_cntr_b a {
+    margin-top: 19px;
+    font-size: 19px;
+  }
+  #media_cntr .media_cntr_b p {
+    font-size: 14px;
+  }
+
+  /* <!-- 컨텐츠4:FMI --> */
+  #more_info .more_info_b {
+    width: 100%;
+  }
+  #more_info .more_info_b li {
+    width: 32%;
+  }
+  #more_info .more_info_b li:nth-child(2) img {
+    margin-top: 30px;
+    width: 70%;
+  }
+  #more_info .more_info_b img {
+    width: 100%;
+  }
+  #more_info .more_info_b span {
+    width: 315px;
+  }
+  #more_info .more_info_b a {
+    font-size: 28px;
+  }
+  #more_info .more_info_b li:nth-child(1) a {
+    top: 13px;
+    left: 75px;
+  }
+  #more_info .more_info_b li:nth-child(2) a {
+    font-size: 26px;
+    top: 75px;
+    left: 530px;
+  }
+
+  /* 풀메뉴 */
+  #menu .menu_in {
+    width: 100%;
+  }
+
+  /* 하단 영역 */
+  #footer .footer_in {
+    width: 100%;
+  }
+  #footer .header {
+    width: 100%;
+  }
+  #footer .body {
+    width: 100%;
+  }
+  #footer .body .info {
+    top: 20px;
+    right: 30px;
+  }
+}
